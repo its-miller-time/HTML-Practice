@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+
+    header,footer,article,aside {position: absolute}
+    header,footer {
+        height: 50px;
+        width:100%;
+        background: #222222;
+    }
+    article {
+        background: rgb(172, 242, 172);
+        height:100px;
+        width: 80%;
+        position: absolute;
+        left:0;
+        top:50px
+    }
+    aside {
+        background: lightblue;
+        height:100px;
+        min-width:20%;
+        position: absolute;;
+        right:0;
+        top:50px
+    }
+    footer {
+        background: #222222;
+        height: 50px;
+        width:100%;
+        position: absolute;
+        top:150px;
+    }
+</style>
+<body>
+    <header></header>
+    <main>
+        <article class="main"></article>
+        <aside class="sidebar"></aside>
+    </main>
+    <footer></footer>
+</body>
+</html>

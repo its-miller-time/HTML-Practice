@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box
+    }
+    header,footer,main{
+        clear: both;
+    }
+    body{
+        height:500px;
+        width:500px
+    }
+    header,footer{
+        background: red;
+        height:10%;
+        width:100%;
+    }
+    main {
+        background: blue;
+        height:500px;
+        width:500px;
+    }
+    aside {
+        background: green;
+        height:100%;
+        width:20%;
+    }
+    article{
+        background: yellow;
+        width:auto;
+        height:100%;
+    }
+    .fltright {
+        float:right;
+    }
+    .fltleft{
+        float:left;
+    }
+</style>
+<body>
+    <header></header>
+    <main>
+        <aside class="fltleft"></aside>
+        <aside class="fltright"></aside>
+        <article></article>
+    </main>
+    <footer></footer>
+</body>
+</html>
