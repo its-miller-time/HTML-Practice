@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        main{
+            display: flex;
+        }
+        header, footer{
+            background: steelblue;
+        }
+        aside{
+            background: blanchedalmond;
+            width: 300px;
+        }
+        article{
+            background: grey;
+            justify-content: flex-end;
+            align-items: flex-start;
+            flex-grow: 1
+        }
+        
+    </style>
+</head>
+<body>
+    <header><h1>Header</h1></header>
+    <main>
+        <aside>
+            <h3>Col_1</h3>
+            <p>This is a paragrah</p>
+        </aside>
+        <article><h3>Col_2</h3></article>
+    </main>
+    <footer><h1>Footer</h1></footer>
+</body>
+</html>
